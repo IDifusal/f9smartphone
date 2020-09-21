@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <!--CSS CUSTOM-->
 <link rel="stylesheet" href="style.css">
+
     <%- include("partials/navigation.html")%>
 </head>
 <body>
@@ -39,7 +40,23 @@
                 <span class="sr-only">Siguiente</span>
             </a>
         </div>
-   
+  <div class="whatsapp">
+    <div id="myDiv">
+    </div>
+    </body>
+    <script type="text/javascript">
+      $(function () {
+        $('#myDiv').floatingWhatsApp({
+          phone: '51995989398',
+          headerTitle: 'Bienvenido a F9',
+          popupMessage:'Hola, como podemos ayudarte',
+          showPopup:true,
+          message:'Quiero mas información',
+          position: 'right',
+        });
+      });
+    </script>
+  </div>
 <div class="catalogo">
   <div class="container-sm">
     <div class="card-deck">
@@ -176,5 +193,9 @@
   </div>
     </div>
     <%- include("partials/footer.html")%>
+    <!--WHATS APP-->
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="floating-wpp.min.js"></script>
+<link rel="stylesheet" href="floating-wpp.min.css">
 </body>
 </html>
