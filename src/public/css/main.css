@@ -1,0 +1,102 @@
+.navbar {
+    height: 65px;
+    background-color:#0B07E1;
+    font-family: 'Barlow', sans-serif;
+    color:red;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px #000;
+  }
+  
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  
+ .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+  a{
+      color: white;
+
+  }
+  .navbar a:hover{
+    color:white;
+    border-bottom: 3px solid #FBD201;
+  }
+
+/**/
+.mensagge{
+    padding: 30px 0;
+    text-align: center;
+    min-height: 60px;
+    margin-top: 0px;
+    background-color: #FBD201;
+}
+.mensagge p{
+    color: white;
+}
+
+/* PHONES*/
+.card-deck{
+  margin-top: 40px;
+}
+.card-deck .card{
+  border-radius: 2em;
+}
+.card-body{
+  padding: 15px;
+}
+
+body{
+  background-color: #dddddd
+}
+.footer-but{
+  margin-bottom: 10px;
+  align-self: center;
+}
+footer{
+  height: 180px;
+  background-color: black;
+  color: white;
+  margin-bottom: 0px;
+  list-style: none;
+  margin-top: 30px;
+  display: flex;
+  align-items:center;
+}
+.final-final{
+  font-size:50px;
+  margin-bottom: 0px;
+}
+
+.black-white{
+  margin-left: 60px;
+}
+/*MARCAS*/
+.marcas{
+  margin-top: 30px;
+  height: 110px;
+  background-color: #FECF00;
+  display: flex;
+  align-self: center;
+ 
+}
+
+/*FEATURES*/
+.features .card-deck .card{
+  border-radius:0;
+}
+.marcas img{
+  margin-left: 210px;
+}
+.catalogo .card{
+  height: 700px;
+}
+.catalogo .card-body{
+  height: 50px;
+}
